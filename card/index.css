@@ -1,0 +1,282 @@
+
+*{
+    margin: 0 auto;
+    
+}
+
+
+.fondo{
+width: 100%;
+height: 600px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.card{
+
+height: 400px;
+width: 280px;
+background: rgba( 255, 255, 255, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 2.5px );
+-webkit-backdrop-filter: blur( 2.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.card .card-principal{
+
+    height: 200px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .card-principal img{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    
+}
+
+
+.card .card-principal h1{
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 7px;
+    font-size: 27px;
+    color: #242629;
+}
+
+.card .card-principal p{
+    color: #72757e;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 5px;
+}
+
+.card .card-iconos{
+
+    width: 280px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .card-iconos .icono-facebook{
+
+    
+    height: 35px;
+    width: 35px;
+    background-color: #EFF1F4;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    -webkit-box-shadow: 0px 0px 15px -8px #000000; 
+box-shadow: 0px 0px 15px -8px #000000;
+margin-left: 40px;   
+    
+}
+
+.card .card-iconos .icono-facebook:hover{
+
+    background-color: #4867AA;
+    transition-duration: 1s;
+    
+}
+
+.card .card-iconos .icono-facebook:hover i{
+
+    color: white;
+    transition-duration: 1s;
+}
+
+
+
+.card .card-iconos .icono-facebook a{
+
+    color: #4867AA;
+}
+
+.card .card-iconos .icono-twitter{
+    color: #1C9CEA;
+    height: 35px;
+    width: 35px;
+    background-color: #EFF1F4;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    -webkit-box-shadow: 0px 0px 15px -8px #000000; 
+box-shadow: 0px 0px 15px -8px #000000;  
+}
+
+.card .card-iconos .icono-twitter:hover{
+
+    background-color: #1C9CEA;
+    transition-duration: 1s;
+}
+
+.card .card-iconos .icono-twitter:hover i{
+
+    color: white;
+    transition-duration: 1s;
+}
+
+.card .card-iconos .icono-twitter a{
+
+    color: #1C9CEA;
+}
+
+.card .card-iconos .icono-instagram{
+
+    color: #CF0151;
+    height: 35px;
+    width: 35px;
+    background-color: #EFF1F4;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    -webkit-box-shadow: 0px 0px 15px -8px #000000; 
+box-shadow: 0px 0px 15px -8px #000000;  
+
+
+}
+
+.card .card-iconos .icono-instagram:hover{
+
+    background-color: #CF0151;
+    transition-duration: 1s;
+}
+
+.card .card-iconos .icono-instagram:hover i{
+
+    color: white;
+    transition-duration: 1s;
+}
+
+.card .card-iconos .icono-instagram a{
+
+    color: #CF0151;
+}
+
+.card .card-iconos .icono-discord{
+
+    color: #535FEE;
+    height: 35px;
+    width: 35px;
+    background-color: #EFF1F4;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    -webkit-box-shadow: 0px 0px 15px -8px #000000; 
+    box-shadow: 0px 0px 15px -8px #000000;  
+    margin-right: 40px; 
+
+
+}
+
+.card .card-iconos .icono-discord:hover{
+
+    background-color: #535FEE;
+    transition-duration: 1s;
+}
+
+.card .card-iconos .icono-discord:hover i{
+
+    color: white;
+    transition-duration: 1s;
+}
+
+.card .card-iconos .icono-discord a{
+
+    color: #535FEE;
+}
+
+
+.card .card-botones{
+
+    width: 280px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .card-botones a{
+
+    color: black;
+    background-color: #EFF1F4;
+    padding: 12px;
+    text-decoration: none;
+    font-family: 'Lexend Deca';
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px inset rgba(255,255,255,0.09);
+    font-size: 13px;
+    -webkit-box-shadow: 2px 1px 5px -1px rgba(0,0,0,0.5); 
+  box-shadow: 2px 1px 5px -1px rgba(0,0,0,0.5);
+}
+
+.card .card-botones a:hover{
+
+    -webkit-box-shadow: 2px 1px 6px -1px #000000; 
+    box-shadow: 2px 1px 6px -1px #000000;
+    transition: 900ms;
+}
+
+
+.card .card-feed{
+    width: 280px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card .card-feed p{
+    margin-left: 1px;
+}
+
+.card .card-feed i{
+    margin-right: 3px;
+}
+
+
+.card .card-footer{
+
+    width: 280px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card .card-footer p{
+
+    font-family: 'Lexend Deca';
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
